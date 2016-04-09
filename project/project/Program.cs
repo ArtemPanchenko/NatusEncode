@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,7 +9,7 @@ namespace project
     static class Program
     {
         /// <summary>
-        /// Р“Р»Р°РІРЅР°СЏ С‚РѕС‡РєР° РІС…РѕРґР° РґР»СЏ РїСЂРёР»РѕР¶РµРЅРёСЏ.
+        /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
         static void Main()
@@ -17,6 +17,7 @@ namespace project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+		cout << "Hello :)";
         }
     }
 }
